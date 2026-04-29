@@ -82,3 +82,31 @@ p{
     height: 60px;
     margin: 3px;
 }
+
+#dividir{
+    font-size: 25px;
+    height: 60px;
+    margin: 3px;
+}
+
+#menos{
+    font-size: 30px;
+    height: 60px;
+    margin: 3px;
+}
+
+#mais{
+    font-size: 25px;
+    height: 60px;
+    margin: 3px;
+}
+
+#ponto{
+    font-size: 25px;
+    height: 60px;
+    margin: 3px;
+}
+
+h3{
+    font-size: 20px;
+}
