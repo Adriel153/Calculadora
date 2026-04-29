@@ -24,7 +24,11 @@ function calculate() {
     const expression = resultadoEl.innerHTML.replace(/X/g, "*").replace(/÷/g, "/");
 
     try {
-        resultadoEl.innerHTML = String(eval(expression));
+        const result = eval(expression);
+        resultadoEl.innerHTML = result.toLocaleString('pt-BR', {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        });
     } catch (error) {
         resultadoEl.innerHTML = "Erro";
     }
